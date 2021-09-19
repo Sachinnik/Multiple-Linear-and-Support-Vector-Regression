@@ -1,5 +1,8 @@
 # Multiple-Linear-and-Support-Vector-Regression
 Multiple Regression  and Support vector machine for Superstore dataset to  predict future sales from Superstore data.
+
+
+
 Superstore data contain the records of the online sales of the Home, office and Electronic products. Dataset contains 10004 rows and 13 columns. Predictive analysis is done on the data and Sales is identified as the dependent variable. As sales is continuous variable Regression problem is identified and regression models are used.
 
 KDD Process is used as a methodology for a Data Mining approach.
