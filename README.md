@@ -12,14 +12,14 @@ These steps includes.
  Splitting data
  Feature scaling dat
 
-> Data cleaning and pre-processing: The first step to clean the data is to find the missing values. Missing values are checked by using sapply() function. Using missmap() function from “Amelia” package, map is created to compare observed values and missing values
+Data cleaning and pre-processing: The first step to clean the data is to find the missing values. Missing values are checked by using sapply() function. Using missmap() function from “Amelia” package, map is created to compare observed values and missing values
 
-> Checking outliers: Data was checked for the outliers. Outliers were checked by using boxplots and Rosner’s test. Rosner’s test is generalized test to detect the outliers. Rosner’s test is executed by using rosnerTest() function from “EnvStats” package
+Checking outliers: Data was checked for the outliers. Outliers were checked by using boxplots and Rosner’s test. Rosner’s test is generalized test to detect the outliers. Rosner’s test is executed by using rosnerTest() function from “EnvStats” package
 
-> Data reduction and transformation: In this process outliers are handled and insignificant columns are dropped by checking correlation between independent and dependent variables. Outliers are handled by using one of the feature scaling technique called normalization. Log transformation is applied to normalize the range for the column ‘Sales’ and handle outliers
+Data reduction and transformation: In this process outliers are handled and insignificant columns are dropped by checking correlation between independent and dependent variables. Outliers are handled by using one of the feature scaling technique called normalization. Log transformation is applied to normalize the range for the column ‘Sales’ and handle outliers
 
-> Correlations: Once the data is normalized, variables are checked for the correlations. Different correlations are used to compare in order to find meaningful independent variables. On this data ‘Pearson’ and ‘Kendall’ correlations are used. This is done by using rcorr() function from “Hmisc” package. 
+Correlations: Once the data is normalized, variables are checked for the correlations. Different correlations are used to compare in order to find meaningful independent variables. On this data ‘Pearson’ and ‘Kendall’ correlations are used. This is done by using rcorr() function from “Hmisc” package. 
 
-> Implementation of model: Multiple Linear Regression by using lm() function and Support Vectore Regressor using svm() function from “e1071” package are used for model implementation.
+Implementation of model: Multiple Linear Regression by using lm() function and Support Vectore Regressor using svm() function from “e1071” package are used for model implementation.
 
-> Evaluation: Annova Table, RMSE and NRMSE from “Metrics” package can be used to evalue the results for Multiple regression and SVM_Type, Gamma value and R2 are used to evaluate results for SVM Regression.
+Evaluation: Annova Table, RMSE and NRMSE from “Metrics” package can be used to evalue the results for Multiple regression and SVM_Type, Gamma value and R2 are used to evaluate results for SVM Regression.
